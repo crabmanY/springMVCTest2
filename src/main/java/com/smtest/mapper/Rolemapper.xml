@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smtest.mapper.Rolemapper">
+    <insert id="insertRole" parameterType="com.smtest.pojo.Role">
+
+        INSERT INTO role (rolename,note)values (#{rolename},#{note})
+    </insert>
+    <select id="getRole" parameterType="int" resultType="com.smtest.pojo.Role">
+        SELECT * FROM role WHERE id=#{id}
+
+    </select>
+    <select id="findRole" parameterType="com.smtest.pojo.RoleParams" resultType="com.smtest.pojo.Role">
+       SELECT * FROM role
+       <where>
+        <if test="roleName!=null">
+            AND rolename like concat('%',#{rolename},'%')
+        </if>
+          <if test="note!=null">
+              AND note LIKE concat('%',#{note},'%')
+          </if>
+       </where>
+          limit #{pageParams.start},#{pageParams.limit}
+    </select>
+</mapper>
+
