@@ -16,5 +16,5 @@ public interface Rolemapper {
     public int insertRole(Role role);
     public Role getRole(int id);
     public List<Role> findRole(RoleParams roleParams);
-
+    public int  deleteRole(int id);
 }

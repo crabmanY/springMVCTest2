@@ -14,8 +14,8 @@ public class RoleParams {
         return rolename;
     }
 
-    public void setRoleName(String roleName) {
-        this.rolename = roleName;
+    public void setRoleName(String rolename) {
+        this.rolename = rolename;
     }
 
     public String getNote() {
@@ -25,8 +25,6 @@ public class RoleParams {
     public void setNote(String note) {
         this.note = note;
     }
-
-
 
     public void setPageParams(com.smtest.pojo.pageParams pageParams) {
         this.pageParams = pageParams;

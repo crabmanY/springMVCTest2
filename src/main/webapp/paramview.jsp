@@ -12,30 +12,62 @@
     <script src="https://code.jquery.com/jquery-3.2.0.js"></script>
     <!--此处插入js脚本-->
     <script type="text/javascript">
-        $(document).ready(function() {
-            //JSON参数和类RoleParams一一对应
-            var data = {
-                //角色查询参数
-                rolename : 'crabman',
-                note : '你',
-                //分页参数
-                pageParams : {
-                    start : 0,
-                    limit : 20
-                }
+        // $(document).ready(function() {
+        //     //JSON参数和类RoleParams一一对应
+        //     var data = {
+        //         //角色查询参数
+        //         rolename: 'crabman',
+        //         note : '你',
+        //         //分页参数
+        //         pageParams : {
+        //             start : 0,
+        //             limit : 20
+        //         }
+        //     }
+        //     //Jquery的post请求
+        //     $.post({
+        //         url : "/param/findRole",
+        //         //此处需要告知传递参数类型为JSON，不能缺少
+        //         contentType : "application/json",
+        //         //将JSON转化为字符串传递
+        //         data : JSON.stringify(data),
+        //         //成功后的方法
+        //         success : function(result) {
+        //         }
+        //     });
+        // });
+        <!--传递数组给控制器-->
+        // $(document).ready(function () {
+        //    //删除角色的数组
+        //     var idList=[1,2,3]
+        //     //jquery的post请求
+        //    $.post({
+        //        url:"/param/deleteRoles",
+        //        data:JSON.stringify(idList),
+        //        contentType:"application/json",
+        //        success:function () {
+        //
+        //        }
+        //    }) ;
+        // });
+        $(document).ready(function () {
+            //新增角色数组
+            var roleList=[
+                {rolename:'小白兔1',note:'是奶糖1'},
+                {rolename:'小白兔2',note:'是奶糖2'},
+                {rolename:'小白兔2',note:'是奶糖2'}
+            ]
+            //jquery的post请求
+        $.post({
+            url:"/param/addRoles",
+            data:JSON.stringify(roleList),
+            contentType:"application/json",
+            success:function (result) {
+                
             }
-            //Jquery的post请求
-            $.post({
-                url : "/param/findRole",
-                //此处需要告知传递参数类型为JSON，不能缺少
-                contentType : "application/json",
-                //将JSON转化为字符串传递
-                data : JSON.stringify(data),
-                //成功后的方法
-                success : function(result) {
-                }
-            });
-        });
+        })
+
+        })
     </script>
 </head>
 <body>

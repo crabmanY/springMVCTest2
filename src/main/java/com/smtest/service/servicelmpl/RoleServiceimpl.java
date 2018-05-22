@@ -36,4 +36,24 @@ public class RoleServiceimpl implements RoleService {
     public List<Role> findRole(RoleParams roleParams) {
         return rolemapper.findRole(roleParams);
     }
+
+    @Override
+    @Transactional(propagation = Propagation.REQUIRED,isolation = Isolation.READ_COMMITTED,rollbackFor = Exception.class)
+    public int deleteRole(List<Integer> idlist) {
+        int count=0;
+        for (Integer id : idlist) {
+            count+=rolemapper.deleteRole(id);
+        }
+        return count;
+    }
+    @Override
+    @Transactional(isolation = Isolation.READ_COMMITTED, propagation = Propagation.REQUIRED,rollbackFor =Exception.class )
+    public int insertRoles(List<Role> roleList) {
+        int count = 0;
+        for (Role role : roleList) {
+            count += rolemapper.insertRole(role);
+        }
+        return count;
+    }
+
 }

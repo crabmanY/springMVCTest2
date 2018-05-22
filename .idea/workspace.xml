@@ -2,45 +2,26 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="smtest:war exploded" />
+      <artifact name="springMVCTest:war exploded" />
     </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/paramview.jsp" line="38" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25b00263-44e7-41a8-be80-b3dcf25acdb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../smtest/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/.idea/dataSources/b318f79c-52e1-4b80-9fb4-41b202181fdf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/smtest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/java/com/smtest/controller/ParamsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/java/com/smtest/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/java/com/smtest/main/domain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/java/com/smtest/mapper/Rolemapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/java/com/smtest/mapper/Rolemapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/java/com/smtest/pojo/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/java/com/smtest/pojo/RoleParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/java/com/smtest/pojo/pageParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/java/com/smtest/service/RoleListService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/java/com/smtest/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/java/com/smtest/service/servicelmpl/RoleListServiceimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/java/com/smtest/service/servicelmpl/RoleServiceimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/resources/mybatis/sqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/resources/spring/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/resources/springmvc/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/webapp/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/webapp/js/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/webapp/paramview.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smtest/src/main/webapp/view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smtest/controller/ParamsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smtest/controller/ParamsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smtest/pojo/RoleParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smtest/pojo/RoleParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smtest/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smtest/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/smtest/service/servicelmpl/RoleServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/smtest/service/servicelmpl/RoleServiceimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/paramview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/paramview.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,22 +74,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ParamsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/controller/ParamsController.java">
+      <file leaf-file-name="Rolemapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="78" column="3" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="3" />
+            <state relative-caret-position="676">
+              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoleController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/controller/RoleController.java">
+      <file leaf-file-name="Rolemapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            <state relative-caret-position="364">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smtest/service/RoleService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleListService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smtest/service/RoleListService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleServiceimpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smtest/service/servicelmpl/RoleServiceimpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleListServiceimpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smtest/service/servicelmpl/RoleListServiceimpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paramview.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/paramview.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1560">
+              <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParamsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/smtest/controller/ParamsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2210">
+              <caret line="97" column="20" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -124,7 +167,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../smtest" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="IdeDocumentHistory">
@@ -137,21 +180,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/smtest/pojo/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smtest/service/RoleListService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smtest/service/RoleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smtest/main/domain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smtest/service/servicelmpl/RoleListServiceimpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smtest/service/servicelmpl/RoleServiceimpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/springmvc/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smtest/service/RoleService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smtest/service/servicelmpl/RoleServiceimpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smtest/controller/RoleController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
@@ -160,22 +195,30 @@
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/paramview.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smtest/controller/ParamsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/smtest/pojo/pageParams.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smtest/pojo/RoleParams.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smtest/service/RoleService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smtest/service/servicelmpl/RoleServiceimpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smtest/main/domain.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis/sqlMapConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smtest/service/servicelmpl/RoleServiceimpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/smtest/controller/ParamsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/smtest/pojo/RoleParams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smtest/pojo/RoleParams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smtest/service/RoleService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/paramview.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/paramview.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smtest/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smtest/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smtest/service/servicelmpl/RoleServiceimpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smtest/service/servicelmpl/RoleServiceimpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smtest/service/servicelmpl/RoleServiceimpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smtest/service/servicelmpl/RoleServiceimpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smtest/controller/ParamsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/smtest/controller/ParamsController.java" />
       </list>
     </option>
   </component>
@@ -196,7 +239,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\mavenJar" />
-        <option name="mavenHome" value="$PROJECT_DIR$/..////////apache-maven-3.5.3" />
+        <option name="mavenHome" value="G:////////apache-maven-3.5.3" />
         <option name="userSettingsFile" value="D:\apache-maven-3.5.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -221,10 +264,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="529" />
+    <option name="y" value="6" />
+    <option name="width" value="1400" />
+    <option name="height" value="941" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -232,53 +275,51 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="smtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smtest" type="462c0819:PsiDirectoryNode" />
+              <item name="springMVCTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springMVCTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="smtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smtest" type="462c0819:PsiDirectoryNode" />
+              <item name="springMVCTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springMVCTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="smtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smtest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smtest" type="462c0819:PsiDirectoryNode" />
+              <item name="springMVCTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springMVCTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="smtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smtest" type="462c0819:PsiDirectoryNode" />
+              <item name="springMVCTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springMVCTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="smtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smtest" type="462c0819:PsiDirectoryNode" />
+              <item name="springMVCTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springMVCTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springMVCTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springMVCTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="smtest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="smtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smtest" type="462c0819:PsiDirectoryNode" />
+              <item name="springMVCTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springMVCTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -287,63 +328,44 @@
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="smtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springMVCTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springMVCTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="smtest" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springMVCTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springMVCTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="smtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smtest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smtest" type="462c0819:PsiDirectoryNode" />
+              <item name="springMVCTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springMVCTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="smtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smtest" type="462c0819:PsiDirectoryNode" />
+              <item name="springMVCTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springMVCTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="springmvc" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="smtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smtest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smtest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smtest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -353,10 +375,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/smtest/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -381,7 +406,7 @@
   <component name="RunManager" selected="Tomcat Server.Unnamed">
     <configuration name="Unnamed" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.smtest.main.domain" />
-      <module name="smtest" />
+      <module name="springMVCTest" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/src/main/java/com/smtest/main" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -425,10 +450,10 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M21" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jdk1.8.0_121">
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M21" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jdk1.8.0_171">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="smtest:war exploded">
+        <artifact name="springMVCTest:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -493,6 +518,7 @@
       <method>
         <option name="BuildArtifacts" enabled="true">
           <artifact name="smtest:war exploded" />
+          <artifact name="springMVCTest:war exploded" />
         </option>
       </method>
     </configuration>
@@ -579,48 +605,51 @@
       <workItem from="1526969373241" duration="6029000" />
       <workItem from="1526980151682" duration="33000" />
       <workItem from="1526980327022" duration="231000" />
+      <workItem from="1526980978077" duration="6793000" />
+      <workItem from="1526999476731" duration="486000" />
+      <workItem from="1526999989978" duration="122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25984000" />
+    <option name="totallyTimeSpent" value="33385000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50038195" side_tool="true" weight="0.535284" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50080514" side_tool="true" visible="true" weight="0.2661638" />
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.13597246" />
       <window_info anchor="right" id="Maven Projects" order="6" side_tool="true" weight="0.32925898" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="9" weight="0.32925898" />
+      <window_info anchor="right" id="Database" order="9" weight="0.46194422" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.51979345" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40086207" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49961802" weight="0.5025818" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919486" weight="0.20150863" />
       <window_info anchor="right" id="Mybatis datasource" order="7" side_tool="true" weight="0.32925898" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36516425" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38110575" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32874355" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32874355" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3286638" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
@@ -668,120 +697,115 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="G:/smtest" />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/service/servicelmpl/RoleListServiceimpl.java">
+    <entry file="file://G:/smtest/src/main/java/com/smtest/service/RoleService.java" />
+    <entry file="file://G:/smtest/src/main/java/com/smtest/mapper/Rolemapper.xml" />
+    <entry file="file://G:/smtest/src/main/webapp/paramview.jsp" />
+    <entry file="jar://G:/MavenJar/org/springframework/spring-webmvc/4.3.12.RELEASE/spring-webmvc-4.3.12.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="37">
+          <caret line="523" lean-forward="true" selection-start-line="523" selection-end-line="523" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/service/servicelmpl/RoleServiceimpl.java">
+    <entry file="jar://G:/MavenJar/org/springframework/spring-webmvc/4.3.12.RELEASE/spring-webmvc-4.3.12.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        <state relative-caret-position="64">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/controller/RoleController.java">
+    <entry file="jar://G:/MavenJar/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="64">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="jar://G:/MavenJar/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/method/support/ModelAndViewContainer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3381">
-          <caret line="147" column="18" selection-start-line="147" selection-start-column="18" selection-end-line="147" selection-end-column="18" />
+        <state relative-caret-position="106">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/webapp/WEB-INF/web.xml">
+    <entry file="jar://G:/MavenJar/org/springframework/spring-core/4.3.12.RELEASE/spring-core-4.3.12.RELEASE.jar!/org/springframework/util/StringUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="83">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/mapper/Rolemapper.java">
+    <entry file="jar://G:/MavenJar/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/method/HandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="129">
+          <caret line="44" column="58" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/mapper/Rolemapper.xml">
+    <entry file="jar://G:/MavenJar/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar!/org/apache/commons/logging/impl/Log4JLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        <state relative-caret-position="205">
+          <caret line="302" selection-start-line="302" selection-end-line="302" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/resources/db.properties">
+    <entry file="jar://G:/MavenJar/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Category.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
+        <state relative-caret-position="75">
+          <caret line="750" selection-start-line="750" selection-end-line="750" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/main/domain.java">
+    <entry file="jar://G:/MavenJar/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Priority.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="83">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/service/servicelmpl/RoleListServiceimpl.java">
+    <entry file="jar://G:/MavenJar/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Hierarchy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="83">
+          <caret line="355" selection-start-line="355" selection-end-line="355" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/service/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/resources/spring/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="44" column="92" selection-start-line="44" selection-start-column="92" selection-end-line="44" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/pojo/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b318f79c-52e1-4b80-9fb4-41b202181fdf/console.sql">
+    <entry file="file://G:/smtest/src/main/resources/mybatis/sqlMapConfig.xml" />
+    <entry file="file://G:/smtest/src/main/java/com/smtest/controller/ParamsController.java" />
+    <entry file="file://G:/smtest/src/main/java/com/smtest/controller/RoleController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../mavenJar/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="203" selection-start-line="203" selection-end-line="203" />
+        <state relative-caret-position="78">
+          <caret line="3" column="82" selection-start-line="3" selection-start-column="82" selection-end-line="3" selection-end-column="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/sqlMapConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="598">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="das://b318f79c-52e1-4b80-9fb4-41b202181fdf/schema/webdb/table/role">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -790,240 +814,282 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mavenJar/com/fasterxml/jackson/core/jackson-databind/2.7.0/jackson-databind-2.7.0.pom">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smtest/pojo/pageParams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2745" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/webapp/js/jquery-3.2.1.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="149" column="29" selection-start-line="149" selection-start-column="29" selection-end-line="149" selection-end-column="29" />
+        <state relative-caret-position="182">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/resources/log4j.properties">
+    <entry file="jar://D:/mavenJar/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Hierarchy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="62" selection-end-line="4" selection-end-column="62" />
+        <state relative-caret-position="200">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/resources/db.properties">
+    <entry file="jar://D:/mavenJar/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Priority.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="95" selection-end-line="3" selection-end-column="95" />
+        <state relative-caret-position="200">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/service/RoleListService.java">
+    <entry file="jar://D:/mavenJar/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Category.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        <state relative-caret-position="179">
+          <caret line="281" selection-start-line="281" selection-end-line="281" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/service/servicelmpl/RoleListServiceimpl.java">
+    <entry file="jar://D:/mavenJar/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/org/apache/commons/logging/impl/Log4JLogger.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="179">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/main/domain.java">
+    <entry file="jar://D:/mavenJar/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/mapper/Rolemapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/pojo/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/resources/springmvc/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/webapp/view.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/pojo/pageParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/resources/spring/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-          <folding>
-            <element signature="e#1752#1765#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/service/servicelmpl/RoleServiceimpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/webapp/js/jquery-3.3.1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/pojo/RoleParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/service/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/mapper/Rolemapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109">
-          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/webapp/paramview.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../mavenJar/org/springframework/spring-webmvc/4.3.12.RELEASE/spring-webmvc-4.3.12.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="523" lean-forward="true" selection-start-line="523" selection-end-line="523" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../mavenJar/org/springframework/spring-webmvc/4.3.12.RELEASE/spring-webmvc-4.3.12.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../mavenJar/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
+        <state relative-caret-position="309">
           <caret line="59" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../mavenJar/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/method/support/ModelAndViewContainer.class">
+    <entry file="jar://D:/mavenJar/org/springframework/spring-core/4.3.12.RELEASE/spring-core-4.3.12.RELEASE.jar!/org/springframework/util/StringUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../mavenJar/org/springframework/spring-core/4.3.12.RELEASE/spring-core-4.3.12.RELEASE.jar!/org/springframework/util/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
+        <state relative-caret-position="200">
           <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../mavenJar/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/method/HandlerMethod.class">
+    <entry file="jar://D:/mavenJar/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/method/support/ModelAndViewContainer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="44" column="58" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
+        <state relative-caret-position="226">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../mavenJar/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar!/org/apache/commons/logging/impl/Log4JLogger.java">
+    <entry file="jar://D:/mavenJar/org/springframework/spring-core/4.3.12.RELEASE/spring-core-4.3.12.RELEASE.jar!/org/springframework/util/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="302" selection-start-line="302" selection-end-line="302" />
+        <state relative-caret-position="278">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../mavenJar/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Category.java">
+    <entry file="jar://D:/mavenJar/org/springframework/spring-core/4.3.12.RELEASE/spring-core-4.3.12.RELEASE.jar!/org/springframework/core/MethodParameter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="750" selection-start-line="750" selection-end-line="750" />
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../mavenJar/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Priority.java">
+    <entry file="jar://D:/mavenJar/org/springframework/spring-core/4.3.12.RELEASE/spring-core-4.3.12.RELEASE.jar!/org/springframework/core/annotation/SynthesizingMethodParameter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        <state relative-caret-position="234">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../mavenJar/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Hierarchy.java">
+    <entry file="jar://D:/mavenJar/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/method/HandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="355" selection-start-line="355" selection-end-line="355" />
+        <state relative-caret-position="179">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/resources/mybatis/sqlMapConfig.xml">
+    <entry file="jar://D:/mavenJar/org/springframework/spring-webmvc/4.3.12.RELEASE/spring-webmvc-4.3.12.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="179">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/controller/ParamsController.java">
+    <entry file="jar://D:/mavenJar/org/springframework/spring-webmvc/4.3.12.RELEASE/spring-webmvc-4.3.12.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ResponseBodyEmitterReturnValueHandler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="78" column="3" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="3" />
+        <state relative-caret-position="179">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../smtest/src/main/java/com/smtest/controller/RoleController.java">
+    <entry file="jar://D:/mavenJar/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/method/support/HandlerMethodReturnValueHandlerComposite.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="179">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smtest/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smtest/pojo/RoleParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smtest/pojo/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smtest/service/servicelmpl/RoleServiceimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/paramview.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smtest/service/servicelmpl/RoleListServiceimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smtest/mapper/Rolemapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smtest/controller/ParamsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2210">
+          <caret line="97" column="20" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smtest/service/RoleListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smtest/controller/aa.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/smtest/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>springMVCTest:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>springMVCTest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.7.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

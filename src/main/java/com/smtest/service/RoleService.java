@@ -15,5 +15,6 @@ public interface RoleService {
     public int insertRole(Role role);
     public Role getRole(int id);
     public List<Role> findRole(RoleParams roleParams);
-
+    public int deleteRole(List<Integer> idList);
+    public int insertRoles(List<Role> roleList);
 }

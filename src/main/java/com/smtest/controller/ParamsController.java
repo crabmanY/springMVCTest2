@@ -85,4 +85,28 @@ public class ParamsController {
             modelAndView.setView(new MappingJackson2JsonView());
             return modelAndView;
         }
+        /**
+         * 传递数组
+         * */
+        @RequestMapping("/deleteRoles")
+        public ModelAndView deleteRoles(@RequestBody List<Integer> idList){
+        ModelAndView modelAndView=new ModelAndView();
+        int total=roleService.deleteRole(idList);
+        modelAndView.addObject("total",total);
+        //JSON视图
+        modelAndView.setView(new MappingJackson2JsonView());
+        return modelAndView;
+        }
+        /**
+         * 新增多个角色对象
+         * */
+
+        @RequestMapping("/addRoles")
+        public ModelAndView addRoles(@RequestBody List<Role> roleList){
+            ModelAndView modelAndView=new ModelAndView();
+            int total=roleService.insertRoles(roleList);
+            modelAndView.addObject("total",total);
+            modelAndView.setView(new MappingJackson2JsonView());
+            return modelAndView;
+        }
 }

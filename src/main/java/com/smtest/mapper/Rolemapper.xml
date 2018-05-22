@@ -23,5 +23,8 @@
        </where>
           limit #{pageParams.start},#{pageParams.limit}
     </select>
+    <delete id="deleteRole" parameterType="int">
+        delete from role where id=#{id}
+    </delete>
 </mapper>
 
