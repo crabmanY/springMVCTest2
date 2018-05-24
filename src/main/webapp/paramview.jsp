@@ -50,43 +50,55 @@
         //        }
         //    }) ;
         // });
+        // $(document).ready(function () {
+        //     //新增角色数组
+        //     var roleList=[
+        //         {rolename:'小白兔1',note:'是奶糖1'},
+        //         {rolename:'小白兔2',note:'是奶糖2'},
+        //         {rolename:'小白兔2',note:'是奶糖2'}
+        //     ]
+        //     //jquery的post请求
+        // $.post({
+        //     url:"/param/addRoles",
+        //     data:JSON.stringify(roleList),
+        //     contentType:"application/json",
+        //     success:function (result) {
+        //
+        //     }
+        // })
+        //
+        // })
         $(document).ready(function () {
-            //新增角色数组
-            var roleList=[
-                {rolename:'小白兔1',note:'是奶糖1'},
-                {rolename:'小白兔2',note:'是奶糖2'},
-                {rolename:'小白兔2',note:'是奶糖2'}
-            ]
-            //jquery的post请求
-        $.post({
-            url:"/param/addRoles",
-            data:JSON.stringify(roleList),
-            contentType:"application/json",
-            success:function (result) {
-                
-            }
-        })
-
+            $("#submit").click(function () {
+                var str=$("form").serialize();
+                //提交表单
+                $.post({
+                    url:"/param/commonPojo2",
+                    //将form数据序列化，传递给后台，然后将数据以roleNmae=信息&&note=xx传递
+                    data:$("form").serialize(),
+                    success:function (result) {
+                    }
+                })
+            })
         })
     </script>
 </head>
 <body>
-
-<form action="/param/findRole" id="form">
+<form  id="form" action="/param/addRole3">
     <table>
         <tr>
             <td>角色名称</td>
-            <td><input id="roleName" name="role_name" value=""></td>
+            <td><input id="roleName" name="rolename" value=""></td>
         </tr>
-        <tr>
-            <td>备注</td>
-            <td><input id="note" name="note"></td>
+        <td>备注</td>
+        <td><input id="note" name="note"></td>
         </tr>
         <tr>
             <td></td>
-            <td align="right"><input type="submit" value="提交"></td>
+            <td align="right"><input id="submit" value="提交" type="submit"></td>
         </tr>
 
+        <tr>
     </table>
 
 

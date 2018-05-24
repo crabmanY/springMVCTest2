@@ -7,11 +7,7 @@
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://G:/smtest" />
-    <file type="web" url="file://$PROJECT_DIR$" />
-  </component>
-  <component name="JavaScriptSettings">
-    <option name="languageLevel" value="ES6" />
+    <file type="web" url="file://$PROJECT_DIR$/../smtest" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -21,6 +17,6 @@
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8 (1)" project-jdk-type="JavaSDK">
-    <output url="file://G:/smtest/out" />
+    <output url="file://$PROJECT_DIR$/../smtest/out" />
   </component>
 </project>
