@@ -32,7 +32,7 @@ public class RoleController {
      Role role=roleService.getRole(id);
      ModelAndView modelAndView=new ModelAndView();
      modelAndView.addObject("role",role);
-     modelAndView.setViewName(String.valueOf(new MappingJackson2JsonView()));
+     modelAndView.setView(new MappingJackson2JsonView());
      return modelAndView;
     }
 }

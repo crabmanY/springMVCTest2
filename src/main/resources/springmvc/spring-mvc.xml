@@ -23,5 +23,11 @@
         <property name="suffix" value=".jsp"/>
     </bean>
     <mvc:annotation-driven/>
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/role/*"/>
+            <bean class="com.smtest.interceptor.RoleInterceptor"></bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
     <tx:annotation-driven transaction-manager="transactionManager"></tx:annotation-driven>
 </beans>
