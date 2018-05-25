@@ -15,9 +15,9 @@ import java.util.List;
  */
 public class domain {
     public static void main(String []args){
-        ApplicationContext context=new ClassPathXmlApplicationContext("spring/applicationContext.xml");
+        ApplicationContext context=new ClassPathXmlApplicationContext("classpath:spring/applicationContext.xml");
         RoleListService roleListService= (RoleListService) context.getBean(RoleListService.class);
-        List<Role> roleList=new ArrayList<Role>();
+        List<Role> roleList= new ArrayList<>();
         for(int i=1;i<10;i++){
             Role role=new Role();
             role.setRolename("crab"+i);
