@@ -59,7 +59,7 @@ public class ValidateController {
     public ModelAndView export(){
         ModelAndView modelAndView=new ModelAndView();
         Excelview excelview=new Excelview(excelExportService());
-        excelview.setFileName("所有角色.xmls");
+        excelview.setFileName("所有角色.xlsx");
         //设置sql后台参数
         RoleParams roleParams=new RoleParams();
         roleParams.setRoleName("crab");
