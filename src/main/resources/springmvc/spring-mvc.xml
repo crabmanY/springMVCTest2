@@ -22,8 +22,26 @@
         <property name="prefix" value="/"></property>
         <property name="suffix" value=".jsp"/>
     </bean>
+    <mvc:annotation-driven conversion-service="conversionService2"/>
+    <bean id="conversionService2" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters">
+            <list><bean class="com.smtest.converter.StringRoleConverter"></bean> </list>
+        </property>
+    </bean>
+    <!--文件上传-->
     <bean class="org.springframework.web.multipart.support.StandardServletMultipartResolver" id="multipartResolver"></bean>
-    <mvc:annotation-driven/>
+    <!--Json消息转换-->
+    <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter" id="jackson2HttpMessageConverter">
+        <property name="supportedMediaTypes">
+            <list>
+                <value>application/json;charset=UTF-8</value>
+            </list>
+        </property>
+    </bean>
+    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+        <property name="messageConverters" ref="jackson2HttpMessageConverter">
+        </property>
+    </bean>
     <mvc:interceptors>
         <mvc:interceptor>
             <mvc:mapping path="/role/*"/>
