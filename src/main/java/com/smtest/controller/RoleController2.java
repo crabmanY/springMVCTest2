@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -43,5 +44,23 @@ public class RoleController2 {
             result.put("msg","更新失败");
         }
         return  result;
+    }
+    @RequestMapping("/uodateRoleList")
+    @ResponseBody
+    public Map<String,Object> updateRoleList(List<Role> roleList){
+    Map<String,Object> result=new HashMap<>();
+    //更新角色列表
+        boolean uodateFlag=
+
+                roleService.insertRoles(roleList)>1;
+        result.put("success",uodateFlag);
+        if(uodateFlag){
+            result.put("msg","更新成功");
+        }else{
+            result.put("msg","更新失败");
+        }
+
+            return result;
+
     }
 }

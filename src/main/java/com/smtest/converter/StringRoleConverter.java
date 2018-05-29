@@ -20,7 +20,7 @@ public class StringRoleConverter implements Converter<String,Role> {
       /*  if(s.indexOf("-")==-1){
             return null;
         }*/
-        String[] arr=s.split(",");
+        String[] arr=s.split("-");
         //如果数组字符串长度不正确的话返回null
        /* if(arr.length!=3){
             return null;

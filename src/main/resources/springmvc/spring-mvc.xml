@@ -22,12 +22,13 @@
         <property name="prefix" value="/"></property>
         <property name="suffix" value=".jsp"/>
     </bean>
-    <mvc:annotation-driven conversion-service="conversionService2"/>
-    <bean id="conversionService2" class="org.springframework.context.support.ConversionServiceFactoryBean">
-        <property name="converters">
-            <list><bean class="com.smtest.converter.StringRoleConverter"></bean> </list>
-        </property>
-    </bean>
+    <mvc:annotation-driven />
+
+    <!--<bean id="conversionService2" class="org.springframework.context.support.ConversionServiceFactoryBean">-->
+        <!--<property name="converters">-->
+            <!--<list><bean class="com.smtest.converter.StringRoleConverter"></bean> </list>-->
+        <!--</property>-->
+    <!--</bean>-->
     <!--文件上传-->
     <bean class="org.springframework.web.multipart.support.StandardServletMultipartResolver" id="multipartResolver"></bean>
     <!--Json消息转换-->
